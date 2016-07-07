@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="todos.css">
+		<title>todos</title>
+	</head>
+	<body>
+		<header>todos</header>
+		<div id="moveInputBox">
+			<input id="enterItems" class="shadow" type="text" placeholder="What needs to be done?">
+			<!--<div id="output">
+				<p>Items</p>
+			</div>-->
+			<ul id="listElements">
+			</ul>
+			<div id="bottomBarDivTag">
+				<ul>
+					<li class="stayInline"><p id="itemsLeft">0 Items left</p></li>
+					<li class="stayInline"><input id="all" type="button" class="bottomBar" value="All" onclick="allPressed()"></li>
+					<li class="stayInline"><input id="active" type="button" class="bottomBar" value="Active" onclick="activePressed()"></li>
+					<li class="stayInline"><input id="completed" type="button" class="bottomBar" value="Completed" onclick="completedPressed()"></li>
+					<li class="stayInline"><input type="button" class="bottomBar" value="Clear Completed" onclick="clearCompletedPressed()"></li>
+					<!--<li><p id="firstUnder"></p></li>
+					<li><p id="secondUnder"></p></li>-->
+				</ul>
+			</div>
+		</div>
+		<p class="all" id="levelTester">invisible</p>
+	</body>
+	<script src="todos.js" type="text/javascript"></script>
+</html>

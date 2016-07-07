@@ -1,0 +1,191 @@
+body
+{
+	background-color: #DDDDDD;
+}
+
+header
+{
+	font-size: 70px;
+	color: #FF0000;
+	opacity: 0.2;
+	text-align: center;
+}
+
+#enterItems
+{
+	background-image: url("dropdownIcon.png");
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: 7px;
+	border: 5px;
+	/*box-shadow: 0px 2px 15px #888888;*/
+	padding: 10px 140px 10px 27px;
+	height: 20px;
+}
+
+#enterItems:focus
+{
+	outline: none;
+}
+
+#moveInputBox
+{
+	text-align: center;
+}
+
+/*#output
+{
+	background-color: white;
+	border: 5px;
+	margin: auto;
+	padding: 1px 2px;
+	width: 275px;
+	height: 40px;
+	box-shadow: 0px 2px 15px #888888;
+}*/
+
+ul
+{
+	margin: auto;
+	padding: 0px;
+	display: inline;
+}
+
+li
+{
+	background-color: white;
+	/*border: 1px solid #DDDDDD;*/
+	margin: auto;
+	padding: 1px 2px;
+	width: 332px;
+	height: 35px;
+	/*box-shadow: 0px 2px 15px #888888;*/
+	list-style: none;
+	margin-top: 0px;
+	text-align: left;
+	text-indent: 5px;
+}
+
+.shadow
+{
+	/*box-shadow: 0px 2px 15px #888888;*/
+}
+
+.checkButton
+{
+	background-image: url("dropDownButton.png");
+	background-size: 15px;
+	background-repeat: no-repeat;
+	border: 7px;
+	width: 15px;
+	margin-right: 10px;
+	border-bottom: 10px;
+	vertical-align: middle;
+	color: #DDDDDD;
+}
+
+.stayInline
+{
+	display: inline;
+}
+
+.bottomBar
+{
+	background-color: #FFFFFF;
+	border: none;
+	color: #DDDDDD;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	transition: background-color .5s ease 0s;
+}
+
+.bottomBar:hover
+{
+	background-color: #666666;
+}
+
+.bottomBar:focus
+{
+	outline: none;
+}
+
+#bottomBarDivTag
+{
+	border-top: 1px solid #DDDDDD;
+	background-color: white;
+	vertical-align: middle;
+	margin: auto;
+	width: 336px;
+	padding: 7px 0px;
+}
+
+#delete
+{
+	text-align: right;
+}
+
+#itemsLeft
+{
+	background-color: #FFFFFF;
+	border: none;
+	color: #DDDDDD;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+}
+
+.all
+{
+	display: none;
+}
+
+.active
+{
+	display: none;
+}
+
+.completed
+{
+	display: none;
+}
+
+#firstUnder
+{
+
+}
+
+#secondUnder
+{
+
+}
+
+.checked
+{
+	padding-top: 15px;
+	border-top: 1px solid #DDDDDD;
+}
+
+.unchecked
+{
+	padding-top: 15px;
+	border-top: 1px solid #DDDDDD;
+}
+
+.x
+{
+	width: 15px;
+	height: 10px;
+	opacity: 0;
+	float: right;
+	padding-top: 6px;
+	padding-right: 7px;
+	transition: .2s linear 0s;
+}
+
+.x:focus
+{
+	outline: none;
+}
